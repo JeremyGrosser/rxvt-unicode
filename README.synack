@@ -1,0 +1,7 @@
+Changes from upstream:
+ - Disabled bell
+ - Disabled mouse reporting
+
+Configure flags:
+
+    ./configure --enable-256-color --enable-unicode3 --enable-pointer-blank --enable-selectionscrolling --enable-frills

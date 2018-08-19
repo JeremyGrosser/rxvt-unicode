@@ -579,7 +579,7 @@ enum {
 #define PrivMode_BlinkingCursor (1UL<<25)
 #define PrivMode_FocusEvent     (1UL<<26)
 
-#define PrivMode_mouse_report   (PrivMode_MouseX10|PrivMode_MouseX11|PrivMode_MouseBtnEvent|PrivMode_MouseAnyEvent)
+#define PrivMode_mouse_report   0
 
 #ifdef ALLOW_132_MODE
 # define PrivMode_Default (PrivMode_Autowrap|PrivMode_ShiftKeys|PrivMode_VisibleCursor|PrivMode_132OK)
